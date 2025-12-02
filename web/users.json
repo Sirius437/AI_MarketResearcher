@@ -1,0 +1,20 @@
+{
+  "_NOTE": "This file will be automatically created when you add your first user.",
+  "_INSTRUCTIONS": [
+    "To add users to MarketResearcher web interface:",
+    "1. Run the web application: ./web/start_web.sh",
+    "2. Access the web interface at http://localhost:8501",
+    "3. Follow the setup wizard to create your admin account",
+    "4. Add additional users using the User Management section",
+    "",
+    "Alternatively, add users programmatically:",
+    "from web.auth import UserManager",
+    "user_manager = UserManager()",
+    "user_manager.create_user('username', 'password', 'email@example.com')",
+    "",
+    "SECURITY REMINDER:",
+    "- Use strong passwords (minimum 12 characters)",
+    "- Change default credentials immediately after setup",
+    "- Remove unnecessary user accounts regularly"
+  ]
+}
